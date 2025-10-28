@@ -1,0 +1,10 @@
+print("Insere as notas das diferentes 7 notas ao longo do ano.")
+nota1 = float(input("\nNota do Primeiro Teste : "))
+nota2 = float(input("Nota do Segundo Teste : "))
+nota3 = float(input("Nota do Terceiro Teste : "))
+nota4 = float(input("Nota do Quarto Teste : "))
+nota5 = float(input("Nota do Quinto Teste : "))
+nota6 = float(input("Nota do Sexto Teste : "))
+nota7 = float(input("Nota do Sétimo e Ultimo Teste : "))
+media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7)/ 7
+print(f"\nA média dos seus testes é de {media:.2f}")

@@ -1,0 +1,12 @@
+Algoritmo Beber Sumo
+	Ir buscar um copo
+	Deslocar-se ao frigorifico
+	Abrir Porta do frigorifico
+	Pegar na garrafa de sumo.
+	Abrir Garrafa de Sumo
+	Deitar o sumo no copo.
+	Fechar a garrafa de sumo.
+	Colocar o sumo de volta no frigorifico.
+	Fechar a porta do frigorifico.
+	Beber Sumo.
+Fim

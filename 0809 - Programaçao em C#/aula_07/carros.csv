@@ -1,0 +1,21 @@
+ID,Marca,Modelo,Ano,Combustivel,Cor,Preco,Quilometragem
+1,Toyota,Corolla,2018,Gasolina,Branco,15500,72000
+2,Volkswagen,Golf,2020,Diesel,Preto,21500,45000
+3,Renault,Clio,2017,Gasolina,Vermelho,9800,88000
+4,BMW,320d,2019,Diesel,Cinza,27500,52000
+5,Tesla,Model 3,2022,Elétrico,Branco,39500,18000
+6,Peugeot,208,2016,Gasolina,Azul,8700,94000
+7,Mercedes,A200,2021,Diesel,Preto,32500,30000
+8,Fiat,Panda,2015,Gasolina,Branco,5400,115000
+9,Audi,A4,2020,Diesel,Prata,29500,41000
+10,Nissan,Leaf,2021,Elétrico,Azul,22500,27000
+11,Kia,Ceed,2018,Gasolina,Cinza,14200,68000
+12,Hyundai,Ioniq,2019,Híbrido,Branco,23500,39000
+13,Opel,Corsa,2017,Gasolina,Preto,9200,97000
+14,Ford,Focus,2020,Gasolina,Vermelho,19800,38000
+15,Seat,Leon,2019,Diesel,Cinza,18700,59000
+16,Skoda,Octavia,2018,Diesel,Branco,17500,63000
+17,Honda,Civic,2021,Gasolina,Prata,25500,25000
+18,Toyota,Yaris,2016,Híbrido,Azul,12800,89000
+19,Volvo,XC40,2022,Híbrido,Cinza,39500,15000
+20,BMW,i3,2021,Elétrico,Branco,35500,22000

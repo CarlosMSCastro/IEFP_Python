@@ -1,0 +1,10 @@
+Algoritmo Ver TV
+ Encontrar os comandos
+ Ligar respectivos aparelhos
+ Sentar no respectivo sofá
+ Colocar despertador para 20 minutos depois
+ Aproveitar o canal desejado
+ Desligar o despertador.
+ Levantar do sofá.
+ Desligar o respectivos aparelhos.
+Fim

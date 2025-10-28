@@ -1,0 +1,21 @@
+Algoritmo Receber o Pagamento
+
+	Saudar o Cliente.
+	Perguntar se vai precisar de saco.
+	Se precisa de saco = sim,
+		Oferecer e registar o saco		
+	Registar todos os produtos do cliente.
+	Perguntar se pretende contribuinte na fatura.
+	Se quer contribuinte = sim,
+		Pedir e Registar contribuinte.
+	Perguntar o método de pagamento.
+		Se método de pagamento = TPA,
+			Buscar TPA,
+			Registar pagamento,
+		Outro método de pagamento =
+			Receber pagamento,
+			Verificar se é necessário devolver troco.
+			Devolver troco se aplicável.
+	Despedir do Cliente
+	
+Fim

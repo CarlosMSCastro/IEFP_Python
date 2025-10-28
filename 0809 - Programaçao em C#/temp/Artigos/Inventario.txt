@@ -1,0 +1,6 @@
+Arroz;10;1.49;Mercearia
+Massa;15;0.99;Mercearia
+Leite;30;0.89;Laticinios
+Ovos;12;2.49;Frescos
+Maças;25;1.89;Fruta
+Pão;20;1.10;Padaria
