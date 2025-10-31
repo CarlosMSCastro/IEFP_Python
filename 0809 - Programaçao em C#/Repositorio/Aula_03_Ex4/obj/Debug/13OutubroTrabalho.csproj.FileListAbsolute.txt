@@ -1,0 +1,8 @@
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\bin\Debug\13OutubroTrabalho.exe.config
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\bin\Debug\13OutubroTrabalho.exe
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\bin\Debug\13OutubroTrabalho.pdb
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\obj\Debug\13OutubroTrabalho.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\obj\Debug\13OutubroTrabalho.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\obj\Debug\13OutubroTrabalho.exe
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\obj\Debug\13OutubroTrabalho.pdb
+C:\Users\Slyther1n\source\repos\13OutubroTrabalho\obj\Debug\13OutubroTrabalho.exe.config

@@ -1,0 +1,8 @@
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\bin\Debug\Aula_08_Ex_1.exe.config
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\bin\Debug\Aula_08_Ex_1.exe
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\bin\Debug\Aula_08_Ex_1.pdb
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\obj\Debug\Aula_08_Ex_1.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\obj\Debug\Aula_08_Ex_1.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\obj\Debug\Aula_08_Ex_1.exe
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\obj\Debug\Aula_08_Ex_1.pdb
+C:\Users\Slyther1n\source\repos\Aula_08_Ex_1\obj\Debug\Aula_08_Ex_1.exe.config

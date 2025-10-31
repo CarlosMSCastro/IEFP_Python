@@ -1,0 +1,7 @@
+C:\Users\Slyther1n\source\repos\123123\obj\Debug\123123.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\source\repos\123123\obj\Debug\123123.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\source\repos\123123\bin\Debug\123123.exe.config
+C:\Users\Slyther1n\source\repos\123123\bin\Debug\123123.exe
+C:\Users\Slyther1n\source\repos\123123\bin\Debug\123123.pdb
+C:\Users\Slyther1n\source\repos\123123\obj\Debug\123123.exe
+C:\Users\Slyther1n\source\repos\123123\obj\Debug\123123.pdb

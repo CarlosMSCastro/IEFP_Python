@@ -1,0 +1,8 @@
+C:\Users\Slyther1n\source\repos\Exercicio_05\bin\Debug\Exercicio_05.exe.config
+C:\Users\Slyther1n\source\repos\Exercicio_05\bin\Debug\Exercicio_05.exe
+C:\Users\Slyther1n\source\repos\Exercicio_05\bin\Debug\Exercicio_05.pdb
+C:\Users\Slyther1n\source\repos\Exercicio_05\obj\Debug\Exercicio_05.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\source\repos\Exercicio_05\obj\Debug\Exercicio_05.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\source\repos\Exercicio_05\obj\Debug\Exercicio_05.exe
+C:\Users\Slyther1n\source\repos\Exercicio_05\obj\Debug\Exercicio_05.pdb
+C:\Users\Slyther1n\source\repos\Exercicio_05\obj\Debug\Exercicio_05.exe.config

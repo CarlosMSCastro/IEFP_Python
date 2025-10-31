@@ -1,0 +1,8 @@
+Execução em: 28/10/2025 17:57:01
+Ficheiros lidos:
+ - nota1.txt
+ - nota2.txt
+ - nota3.txt
+Total ficheiros: 3
+Total caracteres: 93
+----------------------------------------

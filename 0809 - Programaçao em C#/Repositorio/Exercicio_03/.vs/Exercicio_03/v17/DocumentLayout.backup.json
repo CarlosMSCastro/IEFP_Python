@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|c:\\users\\slyther1n\\source\\repos\\exercicio_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|c:\\users\\slyther1n\\source\\repos\\exercicio_03\\autocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|solutionrelative:autocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|c:\\users\\slyther1n\\source\\repos\\exercicio_03\\camiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|solutionrelative:camiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|c:\\users\\slyther1n\\source\\repos\\exercicio_03\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|solutionrelative:veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|c:\\users\\slyther1n\\source\\repos\\exercicio_03\\mota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|solutionrelative:mota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|c:\\users\\slyther1n\\source\\repos\\exercicio_03\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4719CDD4-31FF-4A5F-8AEF-2334AF2A2270}|Exercicio_03.csproj|solutionrelative:carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mota.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\mota.cs",
+              "RelativeDocumentMoniker": "mota.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\mota.cs",
+              "RelativeToolTip": "mota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:42:38.903Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "carro.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\carro.cs",
+              "RelativeDocumentMoniker": "carro.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\carro.cs",
+              "RelativeToolTip": "carro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:42:11.93Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:27:05.814Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "autocarro.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\autocarro.cs",
+              "RelativeDocumentMoniker": "autocarro.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\autocarro.cs*",
+              "RelativeToolTip": "autocarro.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:49:33.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "camiao.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\camiao.cs",
+              "RelativeDocumentMoniker": "camiao.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\camiao.cs",
+              "RelativeToolTip": "camiao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:44:42.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\veiculo.cs",
+              "RelativeDocumentMoniker": "veiculo.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\source\\repos\\Exercicio_03\\veiculo.cs*",
+              "RelativeToolTip": "veiculo.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:41:14.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

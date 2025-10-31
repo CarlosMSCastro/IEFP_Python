@@ -1,0 +1,8 @@
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\bin\Debug\Primeiro Projeto.exe.config
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\bin\Debug\Primeiro Projeto.exe
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\bin\Debug\Primeiro Projeto.pdb
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\obj\Debug\Primeiro Projeto.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\obj\Debug\Primeiro Projeto.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\obj\Debug\Primeiro Projeto.exe
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\obj\Debug\Primeiro Projeto.pdb
+C:\Users\Slyther1n\source\repos\Primeiro Projeto\obj\Debug\Primeiro Projeto.exe.config

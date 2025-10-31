@@ -1,0 +1,8 @@
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\obj\Debug\Aula 04-Ex02.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\obj\Debug\Aula 04-Ex02.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\bin\Debug\Aula 04-Ex02.exe.config
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\bin\Debug\Aula 04-Ex02.exe
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\bin\Debug\Aula 04-Ex02.pdb
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\obj\Debug\Aula 04-Ex02.exe
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\obj\Debug\Aula 04-Ex02.pdb
+C:\Users\Slyther1n\source\repos\Aula 04-Ex02\obj\Debug\Aula 04-Ex02.exe.config

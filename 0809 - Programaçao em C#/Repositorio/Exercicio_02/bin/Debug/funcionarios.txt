@@ -1,0 +1,13 @@
+Lista de Funcionários:
+---------------------
+Cristiano Ronaldo, CallCenter, Salário: 925,00
+Bernardo Silva, Team Leader, Salário: 1325,00
+Victor Froholdt, Faz Tudo, Salário: 1600,00
+Lionel Messi, Jardineiro, Salário: 1140,00
+Rui Costa, Jardineiro Junior, Salário: 840,00
+Noronha Lopes, Motorista, Salário: 640,00
+Carlos, Chefe, Salário: 3500,00
+
+Salário médio: 1424,29
+Salário mais alto: 3500,00
+Salário mais baixo: 640,00
