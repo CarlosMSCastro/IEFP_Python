@@ -1,5 +1,6 @@
 negativos=0
 positivos=0
+
 for i in range(20):
   num = int(input(f"Digite o {i+1}º numero: "))
   if num > 0:
