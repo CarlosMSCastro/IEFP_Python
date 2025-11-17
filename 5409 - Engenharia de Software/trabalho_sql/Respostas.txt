@@ -1,0 +1,13 @@
+1)
+Um INNER JOIN mostra uma interseção (só o que existe nos dois lados). Um LEFT JOIN mostra tudo da esquerda mais as suas correspondencias correspondências da direita.
+
+2)
+Usando INNER JOIN, se o cliente não tiver encomendas, não aparece no resultado.
+
+3)
+Select TUDO de Produtos, Left Join itens_encomenda USING(id produto) e usando WHERE itens_encomenda.id_produto IS NULL;
+
+4)
+
+
+5)
