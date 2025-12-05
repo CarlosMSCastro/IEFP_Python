@@ -1,16 +1,10 @@
 import pygame
 from pygame.locals import *
 from configs import *
-from runners import *
 
 pygame.init()
 screen = pygame.display.set_mode([window.WIDTH, window.HEIGHT])
 
-runners = [
-    Runner("Cavalo Castanho", 10, 70, skin.RUNNER1),
-    Runner("Spiderman", 10, 80, skin.RUNNER3),
-    Runner("Cavalo Branco", 10, 250, skin.RUNNER2)
-]
 
 clock = pygame.time.Clock()
 
