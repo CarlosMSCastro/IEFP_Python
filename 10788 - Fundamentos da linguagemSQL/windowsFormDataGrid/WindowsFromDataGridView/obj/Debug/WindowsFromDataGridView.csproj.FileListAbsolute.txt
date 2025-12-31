@@ -1,0 +1,11 @@
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\bin\Debug\WindowsFromDataGridView.exe.config
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\bin\Debug\WindowsFromDataGridView.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\bin\Debug\WindowsFromDataGridView.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.Form1.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.Properties.Resources.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.csproj.GenerateResource.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFromDataGridView\obj\Debug\WindowsFromDataGridView.exe.config
