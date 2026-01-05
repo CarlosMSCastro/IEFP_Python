@@ -17,7 +17,7 @@ class Bola:
     screen.blit(self.__skin, [self.__x, self.__y])
 
   def shoot(self):
-    if not self._shooting:
+    if not self._shooting:         #Se quando o shoot() for chamado o self._shooting estiver desligado, ativa-o e dá velocidade ao __dy
       self._shooting = True
       self.__dy = -10 
 
