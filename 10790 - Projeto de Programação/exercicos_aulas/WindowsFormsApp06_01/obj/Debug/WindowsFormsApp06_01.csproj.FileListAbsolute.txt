@@ -1,0 +1,11 @@
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\bin\Debug\WindowsFormsApp06_01.exe.config
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\bin\Debug\WindowsFormsApp06_01.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\bin\Debug\WindowsFormsApp06_01.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.Form1.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.Properties.Resources.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.csproj.GenerateResource.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10788 - Fundamentos da linguagemSQL\windowsFormDataGrid\WindowsFormsApp06_01\obj\Debug\WindowsFormsApp06_01.exe.config
