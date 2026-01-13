@@ -1,0 +1,11 @@
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\FormularioUtilizador.FormRegisto.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp06_02\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
