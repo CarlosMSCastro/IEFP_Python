@@ -9,9 +9,8 @@ class Bola:
     self.__y = general.BOLA_START_Y
     self.__speed = general.BOLA_SPEED
     self._shooting = False
-    self.__dx = 0         #Direcao do Remate
-    self.__dy = 0         #Direcao do Remate
-
+    self.__dx = 0       #Direcao do Remate em X
+    self.__dy = 0       #Direcao do Remate em Y
 
   def draw(self, screen):
     screen.blit(self.__skin, [self.__x, self.__y])
@@ -21,15 +20,13 @@ class Bola:
       self._shooting = True
       self.__dy = -10 
 
-      target_x = (general.BALIZA_X_MIN + general.BALIZA_X_MAX) / 2      #target definido para ser "Golo"
-      if self.__x < target_x:           #Correçao para a direção da baliza
+      target_x = (general.BALIZA_X_MIN + general.BALIZA_X_MAX) / 2  #target definido para ser "Golo"
+      if self.__x < target_x:    #Correçao para a direção da baliza
         self.__dx = 2
       elif self.__x > target_x:
-        self.__dx = -2 
+        self.__dx = -2
       else:
         self.__dx = 0
-
-
 
   def move(self, dir=None):
     if self._shooting:

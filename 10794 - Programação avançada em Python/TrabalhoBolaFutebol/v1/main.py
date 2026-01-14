@@ -15,7 +15,6 @@ bola = Bola()
 while True:
   clock.tick(60)
 
-
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       pygame.quit()
@@ -23,7 +22,6 @@ while True:
     elif event.type == pygame.KEYDOWN:
       if event.key == pygame.K_SPACE:
         bola.shoot()
-
 
   key = pygame.key.get_pressed()
   if not bola._shooting:   

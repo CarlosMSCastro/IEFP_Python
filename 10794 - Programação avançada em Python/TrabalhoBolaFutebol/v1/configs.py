@@ -15,7 +15,7 @@ class general:
     BALIZA_X_MAX = 320
     BALIZA_Y = 30
     BOLA_SPEED = 5 
-
+    
 class font:
     ...
 
