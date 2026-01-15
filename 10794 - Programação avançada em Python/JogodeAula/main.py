@@ -30,10 +30,10 @@ while True:
 
     if key[pygame.K_d] or key[pygame.K_RIGHT]:   
         mario.move(direction.RIGHT)
-
+    
     if key[pygame.K_SPACE]:
         mario.jump()
-    
+
     world.move()
     world.draw(screen)
 
@@ -41,3 +41,4 @@ while True:
     mario.draw(screen)
 
     pygame.display.update()
+
