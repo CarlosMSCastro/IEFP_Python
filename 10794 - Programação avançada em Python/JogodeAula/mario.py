@@ -15,8 +15,9 @@ class Mario:
         screen.blit(self.__skin, [self.__x, self.__y])
     
     def draw_life(self, screen):
-        # TODO: pygame.draw.rect((50, 50))
-        ...
+        pygame.draw.rect(screen, "black", [10, 10, 252, 17], 1)
+        pygame.draw.rect(screen, "white", [11, 11, self.__life * 2.5, 15])
+
 
     def move(self, dir):
         if dir == direction.LEFT:

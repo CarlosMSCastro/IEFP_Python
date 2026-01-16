@@ -15,6 +15,7 @@ class font:
     ...
 
 class skin:
+    MARIO = pygame.image.load("imgs/super_mario_1.png")
     SKY = pygame.image.load("imgs/sky.png")
     GROUND = pygame.image.load("imgs/ground.png")
     CLOUDS = [
@@ -34,7 +35,20 @@ class skin:
         pygame.image.load("imgs/mountain_1.png"),
         pygame.image.load("imgs/mountain_2.png")
     ]
-    MARIO = pygame.image.load("imgs/super_mario_1.png")
+    ENEMIES = {
+        "FLYING_TYPE": [
+            pygame.image.load("imgs/bullet.png"),
+            pygame.image.load("imgs/cannonball.png"),
+            pygame.image.load("imgs/squid.png"),
+        ],
+        "WALKING_TYPE": [
+            pygame.image.load("imgs/kiwi.png"),
+            pygame.image.load("imgs/rice.png"),
+            pygame.image.load("imgs/spike.png"),
+            pygame.image.load("imgs/turtle.png"),
+        ]
+    }
+
 
 class sound:
     BACKGROUND = pygame.mixer.Sound("sounds/background.mp3")

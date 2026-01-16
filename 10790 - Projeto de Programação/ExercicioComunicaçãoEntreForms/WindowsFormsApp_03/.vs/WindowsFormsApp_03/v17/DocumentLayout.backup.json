@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10790 - Projeto de Programa\u00E7\u00E3o\\exercicos_aulas\\WindowsFormsApp_03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7399F86-A419-4060-8C43-28D8C1CD6AB0}|WindowsFormsApp_03.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10790 - projeto de programa\u00E7\u00E3o\\exercicos_aulas\\windowsformsapp_03\\frmenviainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7399F86-A419-4060-8C43-28D8C1CD6AB0}|WindowsFormsApp_03.csproj|solutionrelative:frmenviainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7399F86-A419-4060-8C43-28D8C1CD6AB0}|WindowsFormsApp_03.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10790 - projeto de programa\u00E7\u00E3o\\exercicos_aulas\\windowsformsapp_03\\frmenviainfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7399F86-A419-4060-8C43-28D8C1CD6AB0}|WindowsFormsApp_03.csproj|solutionrelative:frmenviainfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmEnviaInfo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10790 - Projeto de Programa\u00E7\u00E3o\\exercicos_aulas\\WindowsFormsApp_03\\frmEnviaInfo.Designer.cs",
+              "RelativeDocumentMoniker": "frmEnviaInfo.Designer.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10790 - Projeto de Programa\u00E7\u00E3o\\exercicos_aulas\\WindowsFormsApp_03\\frmEnviaInfo.Designer.cs*",
+              "RelativeToolTip": "frmEnviaInfo.Designer.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T05:16:53.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmEnviaInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10790 - Projeto de Programa\u00E7\u00E3o\\exercicos_aulas\\WindowsFormsApp_03\\frmEnviaInfo.cs",
+              "RelativeDocumentMoniker": "frmEnviaInfo.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10790 - Projeto de Programa\u00E7\u00E3o\\exercicos_aulas\\WindowsFormsApp_03\\frmEnviaInfo.cs",
+              "RelativeToolTip": "frmEnviaInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T04:43:03.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

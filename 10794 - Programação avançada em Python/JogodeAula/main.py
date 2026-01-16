@@ -4,6 +4,7 @@ from configs import *
 from world import *
 from mario import *
 from direction import *
+from enemy import *
 
 pygame.init()
 screen = pygame.display.set_mode([window.WIDTH, window.HEIGHT])
@@ -14,6 +15,7 @@ pygame.display.set_caption(window.TITLE)
 clock = pygame.time.Clock()
 world = World()
 mario = Mario(20)
+enemy = Enemy(200)
 
 while True:
     dt = clock.tick(60)
@@ -39,6 +41,9 @@ while True:
 
     mario.update_jump()
     mario.draw(screen)
+    mario.draw_life(screen)
+
+    enemy.draw(screen)
 
     pygame.display.update()
 
