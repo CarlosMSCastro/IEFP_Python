@@ -9,3 +9,14 @@ C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exerci
 C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.pdb
 C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.exe.config
 C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\exercicos_aulas\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.frmInicio.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\bin\Debug\WindowsFormsApp_03.exe.config
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\bin\Debug\WindowsFormsApp_03.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\bin\Debug\WindowsFormsApp_03.pdb
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.csproj.AssemblyReference.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.exe.config
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.frmInicio.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.Properties.Resources.resources
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.csproj.GenerateResource.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.csproj.CoreCompileInputs.cache
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.exe
+C:\Users\Slyther1n\Desktop\iefp_formacao\10790 - Projeto de Programação\ExercicioComunicaçãoEntreForms\WindowsFormsApp_03\obj\Debug\WindowsFormsApp_03.pdb
