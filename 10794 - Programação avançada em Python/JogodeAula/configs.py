@@ -7,6 +7,7 @@ class window:
     WIDTH = 1024
     HEIGHT = 683
     TITLE = "Super Mario Runner"
+    FPS = 60
 
 class general:
     GROUND_LOCATION = 595
