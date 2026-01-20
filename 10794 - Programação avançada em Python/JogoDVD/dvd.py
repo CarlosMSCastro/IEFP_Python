@@ -28,7 +28,7 @@ class Dvd:
         texto_bounces = font.FONT.render(f"Bounces: {self.__bounces}/{self.__objetivo}", True, "white")
         screen.blit(texto_bounces, [10, 10])
 
-        tempo_decorrido = int((pygame.time.get_ticks() - self.__start_time) / 1000) #dividir por 1000 porque get_ticks vem em ms
+        tempo_decorrido = (pygame.time.get_ticks() - self.__start_time) // 1000 #dividir por 1000 porque get_ticks vem em ms
         tempo_restante = self.__tempo_limite - tempo_decorrido
         
         if tempo_restante < 0: #evitar tempos menores que 0
@@ -46,7 +46,7 @@ class Dvd:
         if (self.__x <= 0 and self.__vx < 0) or (self.__x >= window.WIDTH - self.__width and self.__vx > 0):  # se bateu numa lateral, apenas na ida, não no regresso 
             self.__bounces += 1
             nova_vel = randint(2, 6) #recebe velocidade nova 
-            
+            #verificar a direção para evitar duplo bounce
             if self.__vx > 0:      # inverter VX
                 self.__vx = -nova_vel
             else:
@@ -63,6 +63,7 @@ class Dvd:
             self.__bounces += 1
             nova_vel = randint(2, 6) #recebe velocidade nova 
             
+            #verificar a direção para evitar duplo bounce
             if self.__vx > 0:      # NÃO inverter a VX
                 self.__vx = nova_vel
             else:
@@ -78,7 +79,7 @@ class Dvd:
 
     def check_game_over(self):
         
-        tempo_decorrido = int((pygame.time.get_ticks() - self.__start_time) / 1000)
+        tempo_decorrido = (pygame.time.get_ticks() - self.__start_time) // 1000
         tempo_restante = self.__tempo_limite - tempo_decorrido
         
         if self.__bounces >= self.__objetivo:

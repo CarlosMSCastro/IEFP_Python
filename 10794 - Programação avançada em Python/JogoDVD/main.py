@@ -11,7 +11,7 @@ pygame.display.set_caption(window.TITLE)
 sound.BACKGROUND.play(loops=-1)
 
 clock = pygame.time.Clock()
-dvd = Dvd(100, 100)
+dvd = Dvd(10, 10)
 
 while True:
     dt = clock.tick(60)
@@ -42,6 +42,8 @@ while True:
         pygame.display.update()
         pygame.time.wait(3000)
         break
+    
+    
 
     pygame.display.update()
 
