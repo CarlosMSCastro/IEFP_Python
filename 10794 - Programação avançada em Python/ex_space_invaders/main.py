@@ -3,7 +3,6 @@ from pygame.locals import *
 from configs import *
 from direction import *
 from projectile import *
-#from enemy import *
 from ship import *
 from enemy import *
 
@@ -11,7 +10,7 @@ pygame.init()
 screen = pygame.display.set_mode([window.WIDTH, window.HEIGHT])
 pygame.display.set_caption(window.TITLE)
 
-#sound.BACKGROUND.play(loops=-1)
+sound.BACKGROUND.play(loops=-1)
 
 clock = pygame.time.Clock()
 ship = Ship(window.WIDTH / 2 - skin.SPACE_SHIP.get_width() / 2)
@@ -45,7 +44,6 @@ while True:
         ship.shoot()
         projectile.shoot(ship.get_x() + skin.SPACE_SHIP.get_width() / 2, 755)
         
-
     projectile.update_shoot()
     projectile.draw(screen)
 
@@ -58,12 +56,22 @@ while True:
 
     ship.draw(screen)
 
-    # if projectile.colides(enemy) and not mario.is_invincible():
-    
-    if projectile.colides(enemy) and not enemy.is_killed():
-        enemy.is_killed()
-    #     mario.lose_life()
+    for enemy in enemies:
+        if enemy.colides(projectile):
+            enemy.is_killed()
+            projectile.reset()
 
+    result = projectile.check_game_over()
 
+    if result == "LOSE":
+        texto = font.FONT_GRANDE.render("GAME OVER!", True, "gray56")
+        sound.BACKGROUND.play(loops=0)
+        sound.LOSING.play()
+        screen.blit(texto, [skin.BACKGROUND.get_width() / 2 - texto.get_width() / 2, 630])
+        pygame.display.update()
+        pygame.time.wait(5000)
+        break
+   
+ 
     pygame.display.update()
 

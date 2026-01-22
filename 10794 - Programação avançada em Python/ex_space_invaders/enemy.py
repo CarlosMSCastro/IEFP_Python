@@ -25,7 +25,6 @@ class Enemy:
     def move(self, enemy_speed):
          self.__x += enemy_speed
 
-
     #get area de sobreposição
     def get_overlaping_area(self, skin, offset_x, offset_y):
         self_mask = pygame.mask.from_surface(self.__skin)

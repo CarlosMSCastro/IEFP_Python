@@ -29,5 +29,13 @@ class skin:
 
 class sound:
     BACKGROUND = pygame.mixer.Sound("sounds/background.mp3")
+    LOSING = pygame.mixer.Sound("sounds/losing.wav")
+    SHOOTING_1 = pygame.mixer.Sound("sounds/shooting_01.mp3")
+    SHOOTING_2 = pygame.mixer.Sound("sounds/shooting_02.mp3")
+    WIN = pygame.mixer.Sound("sounds/win.wav")
     BACKGROUND.set_volume(0.05)
+    SHOOTING_1.set_volume(0.05)
+    SHOOTING_2.set_volume(0.05)
+    LOSING.set_volume(0.05)
+    WIN.set_volume(0.05)
 
