@@ -17,8 +17,7 @@ class Enemy:
     def draw(self, screen):
         if self.__is_alive:
             screen.blit(self.__skin, [self.__x, self.__y])
-        else:
-            return
+        
     def is_killed(self):
         self.__is_alive = False
     

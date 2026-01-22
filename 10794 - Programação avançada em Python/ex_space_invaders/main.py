@@ -16,12 +16,12 @@ clock = pygame.time.Clock()
 ship = Ship(window.WIDTH / 2 - skin.SPACE_SHIP.get_width() / 2)
 projectile = Projectile(ship.get_x() + skin.SPACE_SHIP.get_width() / 2)
 
-enemies = []
-positions = [280, 430, 560, 700]
-enemy_speed = 2
-
-for x in positions:
-    enemies.append(Enemy(x))
+enemies = [
+    Enemy(280),
+    Enemy(430),
+    Enemy(560),
+    Enemy(700)
+]
 
 while True:
     dt = clock.tick(window.FPS)
@@ -47,19 +47,20 @@ while True:
     projectile.update_shoot()
     projectile.draw(screen)
 
-    for enemy in enemies:
-        enemy.draw(screen)
-        enemy.move(enemy_speed)
-
+    # N/ao deixar aqui fora
     if enemies[0].get_x() <= 208 or enemies[3].get_x() >= 755:
         enemy_speed *= -1
 
     ship.draw(screen)
 
     for enemy in enemies:
+        enemy.draw(screen)
+        enemy.move(enemy_speed)
+
         if enemy.colides(projectile):
             enemy.is_killed()
             projectile.reset()
+            # remover enemy da lista para ter WIN?
 
     result = projectile.check_game_over()
 
