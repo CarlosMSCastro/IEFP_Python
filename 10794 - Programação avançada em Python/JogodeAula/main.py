@@ -1,10 +1,9 @@
 import pygame
 from pygame.locals import *
 from configs import *
+from world import *
+from mario import *
 from direction import *
-from projectile import *
-#from enemy import *
-from ship import *
 from enemy import *
 
 pygame.init()
@@ -14,56 +13,42 @@ pygame.display.set_caption(window.TITLE)
 #sound.BACKGROUND.play(loops=-1)
 
 clock = pygame.time.Clock()
-ship = Ship(window.WIDTH / 2 - skin.SPACE_SHIP.get_width() / 2)
-projectile = Projectile(ship.get_x() + skin.SPACE_SHIP.get_width() / 2)
-
-enemies = []
-positions = [280, 430, 560, 700]
-enemy_speed = 2
-
-for x in positions:
-    enemies.append(Enemy(x))
+world = World()
+mario = Mario(20)
+enemy = Enemy()
 
 while True:
     dt = clock.tick(window.FPS)
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
             exit()
 
-    screen.blit(skin.BACKGROUND, [0, 0])
-
     key = pygame.key.get_pressed()
     
     if key[pygame.K_a] or key[pygame.K_LEFT]:
-        ship.move(direction.LEFT)
+        mario.move(direction.LEFT)
 
     if key[pygame.K_d] or key[pygame.K_RIGHT]:   
-        ship.move(direction.RIGHT)
-
-    if key[pygame.K_SPACE]:
-        ship.shoot()
-        projectile.shoot(ship.get_x() + skin.SPACE_SHIP.get_width() / 2, 755)
-        
-
-    projectile.update_shoot()
-    projectile.draw(screen)
-
-    for enemy in enemies:
-        enemy.draw(screen)
-        enemy.move(enemy_speed)
-
-    if enemies[0].get_x() <= 208 or enemies[3].get_x() >= 755:
-        enemy_speed *= -1
-
-    ship.draw(screen)
-
-    # if projectile.colides(enemy) and not mario.is_invincible():
+        mario.move(direction.RIGHT)
     
-    if projectile.colides(enemy) and not enemy.is_killed():
-        enemy.is_killed()
-    #     mario.lose_life()
+    if key[pygame.K_SPACE]:
+        mario.jump()
 
+    world.move()
+    world.draw(screen)
 
+    mario.update_jump()
+    mario.draw(screen)
+    mario.draw_life(screen)
+
+    enemy.move()
+    enemy.draw(screen)
+    
+    if mario.colides(enemy) and not mario.is_invincible():
+        mario.lose_life()
+
+    #todo: ecra gameover
     pygame.display.update()
 

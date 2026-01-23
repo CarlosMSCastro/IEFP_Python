@@ -5,27 +5,51 @@ pygame.mixer.init()
 
 class window:
     WIDTH = 1024
-    HEIGHT = 1000
-    TITLE = "Space Invaders"
+    HEIGHT = 683
+    TITLE = "Super Mario Runner"
     FPS = 60
 
+class general:
+    GROUND_LOCATION = 595
+
 class font:
-    FONT = pygame.font.Font("fonts/PressStart2P-Regular.ttf", 20)
-    FONT_GRANDE = pygame.font.Font("fonts/PressStart2P-Regular.ttf", 50)
+    ...
 
 class skin:
-    BACKGROUND = pygame.image.load("imgs/background.jpg")
-    SPACE_SHIP = pygame.image.load("imgs/player.png")
-    PROJECTILE = pygame.image.load("imgs/projectile.png")
+    MARIO = pygame.image.load("imgs/super_mario_1.png")
+    SKY = pygame.image.load("imgs/sky.png")
+    GROUND = pygame.image.load("imgs/ground.png")
+    CLOUDS = [
+        pygame.image.load("imgs/cloud_1.png"),
+        pygame.image.load("imgs/cloud_2.png"),
+        pygame.image.load("imgs/cloud_3.png")
+    ]
+    WOODS = [
+        pygame.image.load("imgs/bush_1.png"),
+        pygame.image.load("imgs/bush_2.png"),
+        pygame.image.load("imgs/bush_3.png"),
+        pygame.image.load("imgs/mountain_1.png"),
+        pygame.image.load("imgs/mountain_2.png"),
+        pygame.image.load("imgs/mountain_3.png")
+    ]
+    TUBES = [
+        pygame.image.load("imgs/mountain_1.png"),
+        pygame.image.load("imgs/mountain_2.png")
+    ]
+    ENEMIES = {
+        "FLYING_TYPE": [
+            pygame.image.load("imgs/bullet.png"),
+            pygame.image.load("imgs/cannonball.png"),
+            pygame.image.load("imgs/squid.png"),
+        ],
+        "WALKING_TYPE": [
+            pygame.image.load("imgs/kiwi.png"),
+            pygame.image.load("imgs/rice.png"),
+            pygame.image.load("imgs/spike.png"),
+            pygame.image.load("imgs/turtle.png"),
+        ]
+    }
 
-    ALIEN_1 = pygame.image.load("imgs/enemy_1.png")
-    ALIEN_2 = pygame.image.load("imgs/enemy_2.png")
-    ALIEN_3 = pygame.image.load("imgs/enemy_3.png")
-    ALIEN_4 = pygame.image.load("imgs/enemy_4.png")
-
-    ALIENS = [ALIEN_1, ALIEN_2, ALIEN_3, ALIEN_4]
-
-    
 
 class sound:
     BACKGROUND = pygame.mixer.Sound("sounds/background.mp3")
