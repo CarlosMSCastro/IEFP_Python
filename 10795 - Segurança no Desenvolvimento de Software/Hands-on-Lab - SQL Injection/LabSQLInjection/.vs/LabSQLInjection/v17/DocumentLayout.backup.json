@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10795 - seguran\u00E7a no desenvolvimento de software\\hands-on-lab - sql injection\\labsqlinjection\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|solutionrelative:searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10795 - seguran\u00E7a no desenvolvimento de software\\hands-on-lab - sql injection\\labsqlinjection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10795 - seguran\u00E7a no desenvolvimento de software\\hands-on-lab - sql injection\\labsqlinjection\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10795 - seguran\u00E7a no desenvolvimento de software\\hands-on-lab - sql injection\\labsqlinjection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|c:\\users\\slyther1n\\desktop\\iefp_formacao\\10795 - seguran\u00E7a no desenvolvimento de software\\hands-on-lab - sql injection\\labsqlinjection\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92CCFF3B-4D6C-43C4-8A2E-275A24EA5DF8}|LabSQLInjection.csproj|solutionrelative:loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchService.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\SearchService.cs",
+              "RelativeDocumentMoniker": "SearchService.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\SearchService.cs*",
+              "RelativeToolTip": "SearchService.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwFQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T18:21:53.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\LoginService.cs",
+              "RelativeDocumentMoniker": "LoginService.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\LoginService.cs",
+              "RelativeToolTip": "LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T17:31:00.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T17:30:08.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T17:28:46.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Slyther1n\\Desktop\\iefp_formacao\\10795 - Seguran\u00E7a no Desenvolvimento de Software\\Hands-on-Lab - SQL Injection\\LabSQLInjection\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAuwKYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T16:35:05.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
