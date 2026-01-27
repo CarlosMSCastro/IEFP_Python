@@ -6,6 +6,7 @@ from mario import *
 from direction import *
 from enemy import *
 
+
 pygame.init()
 screen = pygame.display.set_mode([window.WIDTH, window.HEIGHT])
 pygame.display.set_caption(window.TITLE)
