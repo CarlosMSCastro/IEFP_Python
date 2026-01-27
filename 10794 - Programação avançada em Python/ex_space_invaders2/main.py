@@ -1,8 +1,10 @@
 import pygame
+import random
 from pygame.locals import *
 from configs import *
 from direction import *
 from projectile import *
+from projectileEnemy import *
 from ship import *
 from enemy import *
 
@@ -16,6 +18,7 @@ clock = pygame.time.Clock()
 ship = Ship(window.WIDTH / 2 - skin.SPACE_SHIP.get_width() / 2)
 projectile = Projectile(ship.get_x() + skin.SPACE_SHIP.get_width() / 2)
 
+
 enemies = [
     Enemy(280),
     Enemy(430),
@@ -23,7 +26,12 @@ enemies = [
     Enemy(700)
 ]
 
+enemy_projectiles = []
+last_enemy_shot_time = pygame.time.get_ticks()  # guarda o tempo do último disparo
+enemy_shoot_interval = 2000  # 2 segundos em milissegundos
+
 enemy_speed = 2
+
 
 while True:
     dt = clock.tick(window.FPS)
@@ -58,11 +66,17 @@ while True:
     for enemy in enemies:
         enemy.draw(screen)
         enemy.move(enemy_speed)
-
-        if enemy.colides(projectile):
-            enemy.is_killed()
-            projectile.reset()
-            # remover enemy da lista para ter WIN?
+        current_time = pygame.time.get_ticks()
+        if current_time - last_enemy_shot_time >= enemy_shoot_interval:
+            shooting_enemy = random.choice(enemies)
+            new_projectile = ProjectileEnemy(shooting_enemy.get_x() + skin.ALIEN_1.get_width() / 2)
+            new_projectile.shoot(shooting_enemy.get_x() + skin.ALIEN_1.get_width() / 2, 500)
+            enemy_projectiles.append(new_projectile)
+            last_enemy_shot_time = current_time 
+    
+    for projetile in enemy_projectiles:
+        projetile.update_shoot()
+        projetile.draw(screen)
 
     result = projectile.check_game_over()
 
@@ -74,7 +88,6 @@ while True:
         pygame.display.update()
         pygame.time.wait(5000)
         break
-   
- 
+
     pygame.display.update()
 
