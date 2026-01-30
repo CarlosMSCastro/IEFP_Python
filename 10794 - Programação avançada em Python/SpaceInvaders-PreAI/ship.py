@@ -1,55 +1,49 @@
 import pygame
 from configs import *
 from direction import *
-from ship import *
-from enemy import *
+from projectile import *
 
-class Projectile:
+class Ship:
     def __init__(self, x):
-        self.__skin = skin.PROJECTILE
-        self.__x = x #skin.SPACE_SHIP.get_width() / 2
-        self.__y = 1200
-        self.__vy = 5
-        self.__shooting = False
-        self.__time_limit = 10
+        self.__skin = skin.SPACE_SHIP
+        self.__x = x
+        self.__y = 755
+        self.__vx = 6
+        self.__shoot = False
+        self.__time_limit = 1000
         self.__start_time = pygame.time.get_ticks()
+
+    def get_x(self):
+        return self.__x
 
     def draw(self, screen):
         screen.blit(self.__skin, [self.__x, self.__y])
 
-    def update_shoot(self):
-        if not self.__shooting:
-            return
-        
-        self.__y -= self.__vy
-        if self.__y <= 450:
-            self.reset()
+    def shoot(self):
+        self.__shoot = True
 
-            if self.__y <= 450 - self.__skin.get_height():
-                print("reset")
+    def move(self, dir):
+        self.__set_boundaries()
 
+        if dir == direction.LEFT:
+            self.__x -= self.__vx
+        elif dir == direction.RIGHT:
+            self.__x += self.__vx
 
-    def shoot(self, x, y): 
-        if self.__shooting == True:
-            return
-        else:
-            self.__shooting = True
-            sound.SHOOTING_1.play()
-            self.__x = x
-            self.__y = y
+    def __set_boundaries(self):
+        if self.__x < 215:
+            self.__x = 215
+
+        if self.__x > 750:
+            self.__x = 750
     
-    def reset(self):
-        self.__y = 1200
-        self.__x = -20
-        self.__shooting = False
-
     def check_game_over(self):        
         time = (pygame.time.get_ticks() - self.__start_time) // 1000
         if time == self.__time_limit:
             return "LOSE"
         else:
             return None
-        
+
     #get area de sobreposição
     def get_overlaping_area(self, skin, offset_x, offset_y):
         self_mask = pygame.mask.from_surface(self.__skin)

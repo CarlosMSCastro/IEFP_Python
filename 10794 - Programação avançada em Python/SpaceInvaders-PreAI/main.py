@@ -1,4 +1,5 @@
 import pygame
+import random
 from pygame.locals import *
 from configs import *
 from direction import *
@@ -14,7 +15,8 @@ sound.BACKGROUND.play(loops=-1)
 
 clock = pygame.time.Clock()
 ship = Ship(window.WIDTH / 2 - skin.SPACE_SHIP.get_width() / 2)
-projectile = Projectile(ship.get_x() + skin.SPACE_SHIP.get_width() / 2)
+projectile = Projectile(5, skin.PROJECTILE)
+enemy_projectile = Projectile(-5, skin.PROJECTILE_ENEMY)
 
 enemies = [
     Enemy(280),
@@ -22,8 +24,6 @@ enemies = [
     Enemy(560),
     Enemy(700)
 ]
-
-enemy_speed = 2
 
 while True:
     dt = clock.tick(window.FPS)
@@ -33,7 +33,6 @@ while True:
             exit()
 
     screen.blit(skin.BACKGROUND, [0, 0])
-
     key = pygame.key.get_pressed()
     
     if key[pygame.K_a] or key[pygame.K_LEFT]:
@@ -45,26 +44,38 @@ while True:
     if key[pygame.K_SPACE]:
         ship.shoot()
         projectile.shoot(ship.get_x() + skin.SPACE_SHIP.get_width() / 2, 755)
-        
-    projectile.update_shoot()
-    projectile.draw(screen)
-
-    # N/ao deixar aqui fora
-    if enemies[0].get_x() <= 208 or enemies[3].get_x() >= 755:
-        enemy_speed *= -1
 
     ship.draw(screen)
 
+    projectile.update_shoot()
+    projectile.draw(screen)
+
+    enemy_projectile.shoot(random.choice(enemies).get_x() + skin.ALIEN_1.get_width() / 2, 500)
+    enemy_projectile.update_shoot()
+    enemy_projectile.draw(screen)
+
+    if enemy_projectile.colides(projectile):
+        projectile.reset()
+        enemy_projectile.reset()
+
+
+
+    Enemy.check_movement(enemies)
+
     for enemy in enemies:
         enemy.draw(screen)
-        enemy.move(enemy_speed)
-
+        enemy.move()
         if enemy.colides(projectile):
-            enemy.is_killed()
+            enemies.remove(enemy)
             projectile.reset()
-            # remover enemy da lista para ter WIN?
 
-    result = projectile.check_game_over()
+    result = ship.check_game_over()
+
+    if len(enemies) == 0:
+        result = "WIN"
+    
+    if ship.colides(enemy_projectile):
+        result = "LOSE"
 
     if result == "LOSE":
         texto = font.FONT_GRANDE.render("GAME OVER!", True, "gray56")
@@ -72,9 +83,16 @@ while True:
         sound.LOSING.play()
         screen.blit(texto, [skin.BACKGROUND.get_width() / 2 - texto.get_width() / 2, 630])
         pygame.display.update()
-        pygame.time.wait(5000)
+        pygame.time.wait(2000)
         break
-   
- 
+    elif result == "WIN":
+        texto = font.FONT_GRANDE.render("YOU WIN!", True, "green")
+        sound.BACKGROUND.play(loops=0)
+        sound.WIN.play()
+        screen.blit(texto, [skin.BACKGROUND.get_width() / 2 - texto.get_width() / 2, 630])
+        pygame.display.update()
+        pygame.time.wait(2000)
+        break
+
     pygame.display.update()
 

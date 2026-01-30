@@ -17,6 +17,7 @@ class skin:
     BACKGROUND = pygame.image.load("imgs/background.jpg")
     SPACE_SHIP = pygame.image.load("imgs/player.png")
     PROJECTILE = pygame.image.load("imgs/projectile.png")
+    PROJECTILE_ENEMY = pygame.image.load("imgs/projectile_enemy.png")
 
     ALIEN_1 = pygame.image.load("imgs/enemy_1.png")
     ALIEN_2 = pygame.image.load("imgs/enemy_2.png")
