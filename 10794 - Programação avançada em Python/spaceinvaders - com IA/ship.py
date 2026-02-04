@@ -8,7 +8,7 @@ class Ship:
         self.__skin = skin.SPACE_SHIP
         self.__x = x
         self.__y = 755
-        self.__vx = 6
+        self.__vx = 3
         self.__shoot = False
         self.__time_limit = 1000
         self.__start_time = pygame.time.get_ticks()

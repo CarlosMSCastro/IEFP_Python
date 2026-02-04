@@ -13,8 +13,6 @@ class Projectile:
         self.__vy = vy
         self.__shooting = False
 
-#apagar parametros
-
     def get_x(self):
         return self.__x
     
@@ -54,10 +52,9 @@ class Projectile:
         self.__shooting = False
 
     def is_shooting(self):
-
         return self.__shooting
 
-    def follow_ship(self, target_x, target_y, target_skin):
+    def follow_ship(self, target_x, target_skin):
         if not self.__shooting:
             return
         

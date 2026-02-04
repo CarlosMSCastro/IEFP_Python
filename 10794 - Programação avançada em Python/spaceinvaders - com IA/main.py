@@ -26,7 +26,7 @@ def eval_game(genomes, config):
     gen =+ 1 
 
     projectile = Projectile(5, skin.PROJECTILE)
-    enemy_projectile = Projectile(-10, skin.PROJECTILE_ENEMY)
+    enemy_projectile = Projectile(-3, skin.PROJECTILE_ENEMY)
     ships = []
 
     for genome_id, genome in genomes:
@@ -60,13 +60,12 @@ def eval_game(genomes, config):
         screen.blit(skin.BACKGROUND, [0, 0])
 
         projectile.draw(screen)
-
                 
         if len(ships) > 0:
             if not enemy_projectile.is_shooting():
                 enemy_projectile.shoot(random.choice(enemies).get_x() + skin.ALIEN_1.get_width() / 2, 500)
             
-            enemy_projectile.follow_ship(ships[0].get_x(), ships[0].get_y(), ships[0].skin())
+            enemy_projectile.follow_ship(ships[0].get_x(), ships[0].skin())
             enemy_projectile.update_shoot() 
             enemy_projectile.draw(screen)
 
@@ -92,18 +91,12 @@ def eval_game(genomes, config):
             
             move_left = output[0] > 0
             move_right = output[1] > 0
-            # shoot = output[2] > 0
 
             if move_left:
                 ship.move(direction.LEFT)
 
             if move_right:
                 ship.move(direction.RIGHT)
-
-            # if shoot:
-            #     ship.shoot()
-            #     projectile.shoot(ship.get_x() + skin.SPACE_SHIP.get_width() / 2, 755) 
-            #     ship.add_fitness(1)
 
             if not ship.colides(enemy_projectile):
                 ship.add_fitness(10)
@@ -121,19 +114,10 @@ def eval_game(genomes, config):
 
             ship.draw(screen)
 
-        # projectile.update_shoot()
-
-
         result = ship.check_game_over()
 
-        # if len(enemies) == 0:
-        #     result = "WIN"
-        
-        # if ship.colides(enemy_projectile):
-        #     result = "LOSE"
         if len(ships) == 0:
                 result = "LOSE"
-
 
         if result == "LOSE":
             texto = font.FONT_GRANDE.render("GAME OVER!", True, "gray56")
@@ -143,14 +127,6 @@ def eval_game(genomes, config):
             pygame.display.update()
             pygame.time.wait(2000)
             break
-        # elif result == "WIN":
-        #     texto = font.FONT_GRANDE.render("YOU WIN!", True, "green")
-        #     sound.BACKGROUND.play(loops=0)
-        #     sound.WIN.play()
-        #     screen.blit(texto, [skin.BACKGROUND.get_width() / 2 - texto.get_width() / 2, 630])
-        #     pygame.display.update()
-        #     pygame.time.wait(2000)
-        #     break
 
         pygame.display.update()
 
